@@ -388,3 +388,75 @@ Flutter menyusun tampilan dari widget yang saling bersarang. `Scaffold` menjadi 
 3. Dokumentasi resmi Flutter: <https://docs.flutter.dev/>
 4. Dokumentasi Android Studio: <https://developer.android.com/studio>
 5. Dokumentasi VS Code: <https://code.visualstudio.com/docs>
+
+---
+
+## File Latihan
+
+| File | Keterangan |
+|---|---|
+| [hello_world/main.dart](hello_world/main.dart) | Aplikasi Hello World: AppBar "Belajar Flutter" + teks "Hello World" di tengah layar |
+
+Kode di atas adalah `lib/main.dart` yang dipakai pada praktikum, persis dari
+materi dosen. Letakkan di dalam project Flutter sebagai `lib/main.dart`,
+lalu jalankan dengan emulator atau HP Android.
+
+## Lingkungan yang Terpakai
+
+Pemeriksaan lingkungan pengembangan pada mesin ini:
+
+| Komponen | Versi / Lokasi |
+|---|---|
+| Flutter SDK | `~/Appz/flutter` (dipasang untuk praktikum ini) |
+| Android Studio | `~/Appz/android-studio` |
+| Android SDK | `~/Appz/Sdk` — platform android-29 s/d 37.2 |
+| build-tools | 36.0.0, 37.0.0 |
+| platform-tools | adb 1.0.41 |
+| Emulator | `~/Appz/Sdk/emulator` |
+| JDK | OpenJDK 21.0.12 |
+
+Catatan: modul praktikum dibuat dengan contoh versi lama (JDK 15). Versi di
+atas adalah yang berlaku saat praktikum dikerjakan, dan sudah memenuhi
+kebutuhan Flutter serta Android SDK yang berlaku.
+
+## Hasil Praktikum
+
+Aplikasi Hello World **benar-benar dibuat dan dijalankan**, bukan hanya kode
+contoh. Lingkungan yang dipakai:
+
+| Komponen | Versi |
+|---|---|
+| Flutter SDK | 3.35.1 (channel stable) |
+| Dart | 3.9.0 |
+| JDK | OpenJDK 21.0.12 |
+| Android SDK | platform android-34, build-tools 37.0.0 |
+| Perangkat | Emulator Pixel 6, Android 14 (API 34) |
+
+### Screenshot Hasil
+
+![Hello World di emulator Android](screenshot/01-hello-world.png)
+
+Tampilan sesuai tujuan pembelajaran: AppBar bertuliskan **Belajar Flutter**
+dan teks **Hello World** di tengah layar. Banner **DEBUG** pada sudut adalah
+tanda aplikasi berjalan dalam mode debug (bawaan `flutter run`).
+
+### Langkah yang Dilakukan
+
+1. Memasang Flutter SDK 3.35.1 ke `~/Appz/flutter`
+2. Memeriksa lingkungan dengan `flutter doctor`
+3. Membuat system image Android 34 dan emulator (AVD) `praktikum_p1`
+4. Membuat project dengan `flutter create --org ac.id.unsia belajar_flutter`
+5. Menuliskan kode Hello World di `lib/main.dart`
+6. Build APK debug: `flutter build apk --debug`
+7. Install ke emulator dan menjalankan aplikasi
+
+### Catatan Lingkungan
+
+- **Izin KVM:** emulator perlu akses `/dev/kvm`. User `mhs0075` sudah
+  ditambahkan ke grup `kvm`; pada sesi lama, gunakan `sg kvm -c "<perintah>"`
+  agar izin berlaku tanpa logout.
+- **Versi JDK:** Android Studio membawa JDK 25, sedangkan Gradle 8.12 yang
+  dipakai Flutter 3.35.1 belum mendukungnya. Build dilakukan dengan
+  **OpenJDK 21** melalui `org.gradle.java.home` di `android/gradle.properties`.
+- Modul praktikum dibuat dengan contoh versi lama (JDK 15, Windows).
+  Versi di atas adalah yang berlaku saat praktikum dikerjakan.
