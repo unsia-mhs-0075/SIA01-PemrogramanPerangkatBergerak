@@ -5,47 +5,20 @@ Ujian Akhir Semester
 ## Ringkasan
 
 Pertemuan 8 adalah **Ujian Akhir Semester** mata kuliah Pemrograman
-Berbasis Perangkat Bergerak (Kelas SIA01, Prodi Sistem Informasi, dosen
-pengampu Azlan Irwan, M.Kom).
+Berbasis Perangkat Bergerak, mata kuliah perkuliahan yang diajarkan di
+program studi Sistem Informasi.
 
-## Kisi-kisi Ujian
+Ujian berbentuk pertanyaan uraian tentang konsep dasar Flutter, bukan
+praktik membuat aplikasi. Yang dikumpulkan berupa **link video YouTube**
+dan **Lembar Jawaban berformat PDF**.
 
-| Hal | Keterangan |
-|---|---|
-| Bentuk soal | Tiga pertanyaan **uraian** (essay), bukan praktik membuat aplikasi |
-| Materi pokok | Konsep dasar Flutter yang dipelajari sepanjang pertemuan |
-| Yang dikumpulkan | **Link video YouTube** + **Lembar Jawaban berformat PDF** |
-| Nama berkas lembar jawaban | `UAS_DM_NIM_NAMA.pdf` |
-| Tenggat pengumpulan | **17 Oktober 2026, 00:00** |
-| Ketentuan | Di-upload masing-masing mahasiswa, bukan perwakilan kelompok |
-
-Rincian isi soal, teks lengkap pertanyaan, serta jawaban **tidak
-dicantumkan di repositori ini** karena repositori bersifat publik dan
-materi ujian sepatutnya tidak dipublikasikan.
-
-## Catatan tentang Isi Repositori Ini
-
-Materi ujian — berkas soal asli, teks pertanyaan, dan jawaban — disimpan
-**di luar repositori**, pada folder dokumen lokal:
+Catatan pengerjaan, tenggat waktu, rincian soal, dan jawaban **tidak
+dicantumkan di repositori ini**. Repositori ini bersifat publik, sehingga
+seluruh materi tersebut disimpan di folder dokumen lokal di luar repositori:
 
 ```
 ~/Dokumen/Semester 2A/SIA01 - Pemrograman Berbasis Perangkat Bergerak/P8/
 ```
-
-Jawaban ditulis sebagai uraian teori, merujuk dokumentasi resmi Flutter
-yang tercantum di bagian **Sumber** masing-masing berkas jawaban.
-
-## Status Pengerjaan
-
-| Butir | Status |
-|---|---|
-| Soal dibaca & didokumentasikan | ✅ selesai |
-| Jawaban tiga soal (uraian teori) | ✅ selesai, disimpan di luar repo |
-| Lembar Jawaban PDF `UAS_DM_NIM_NAMA.pdf` | ⬜ belum |
-| Video YouTube | ⬜ belum |
-
-Identitas mahasiswa (NIM dan nama) belum diisi karena belum tersedia di
-dokumen materi — perlu dilengkapi sebelum lembar jawaban disimpan.
 
 ## Materi yang Sudah Dipelajari
 
@@ -64,8 +37,3 @@ berjalan:
 Lingkungan pengembangan lengkap (versi Flutter/Dart/SDK/JDK, perintah
 `flutter create`, izin KVM, dan penyesuaian JDK untuk Gradle) tercatat di
 [README utama](../README.md).
-
-## Sumber
-
-Materi ujian berasal dari berkas dosen pada folder dokumen lokal
-(`P8/`), yang tidak disertakan ke repositori ini.

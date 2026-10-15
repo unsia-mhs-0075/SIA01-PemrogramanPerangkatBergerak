@@ -383,8 +383,10 @@ Flutter menyusun tampilan dari widget yang saling bersarang. `Scaffold` menjadi 
 
 ## Sumber Materi
 
-1. **Pertemuan 01 — Introduction to Android and Flutter**, Azlan Irwan, M.Kom.
-2. **Modul Praktikum Pemrograman Mobile**, Azlan Irwan, M.Kom.
+1. **Pertemuan 01 — Introduction to Android and Flutter**, materi dosen
+   mata kuliah Pemrograman Berbasis Perangkat Bergerak.
+2. **Modul Praktikum Pemrograman Mobile**, materi dosen mata kuliah yang
+   sama.
 3. Dokumentasi resmi Flutter: <https://docs.flutter.dev/>
 4. Dokumentasi Android Studio: <https://developer.android.com/studio>
 5. Dokumentasi VS Code: <https://code.visualstudio.com/docs>
