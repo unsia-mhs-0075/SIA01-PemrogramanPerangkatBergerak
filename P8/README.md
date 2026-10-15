@@ -70,11 +70,15 @@ Yang perlu disiapkan: **link video YouTube** + **Lembar Jawaban PDF**.
 | Butir | Status |
 |---|---|
 | Soal dibaca & didokumentasikan | ✅ selesai |
-| Jawaban Soal 1 (Stateless vs Stateful) | ⬜ belum ditulis |
-| Jawaban Soal 2 (tiga tree) | ⬜ belum ditulis |
-| Jawaban Soal 3 (FutureBuilder + 3 status) | ⬜ belum ditulis |
+| Jawaban Soal 1 (Stateless vs Stateful) | ✅ [JAWAB-1.md](JAWAB-1.md) |
+| Jawaban Soal 2 (tiga tree) | ✅ [JAWAB-2.md](JAWAB-2.md) |
+| Jawaban Soal 3 (FutureBuilder + 3 status) | ✅ [JAWAB-3.md](JAWAB-3.md) |
 | Lembar Jawaban PDF `UAS_DM_NIM_NAMA.pdf` | ⬜ belum |
 | Video YouTube | ⬜ belum |
+
+Jawaban ditulis sebagai uraian teori sesuai ketiga berkas `JAWAB-*.md`,
+merujuk dokumentasi resmi Flutter yang tercantum di bagian **Sumber**
+masing-masing berkas. Contoh kode tidak disertakan atas permintaan.
 
 Identitas mahasiswa (NIM dan nama) belum diisi karena belum tersedia di
 dokumen materi — perlu dilengkapi sebelum lembar jawaban disimpan.
