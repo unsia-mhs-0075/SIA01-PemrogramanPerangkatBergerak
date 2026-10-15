@@ -13,7 +13,7 @@ Pemrograman Berbasis Perangkat Bergerak: Android Studio, VS Code & Flutter
 | Pertemuan 5 | — | ⬜ materi belum tersedia |
 | Pertemuan 6 | — | ⬜ materi belum tersedia |
 | Pertemuan 7 | — | ⬜ materi belum tersedia |
-| [Pertemuan 8](P8) | Ujian Akhir Semester | ✅ soal & tenggat didokumentasikan |
+| [Pertemuan 8](P8) | Ujian Akhir Semester | ✅ dikerjakan, materi ujian disimpan di luar repo |
 
 Hanya P1 dan P8 yang memiliki folder di repositori ini. Pertemuan lain
 masih berupa materi di folder Dokumen, atau belum tersedia dari dosen.
