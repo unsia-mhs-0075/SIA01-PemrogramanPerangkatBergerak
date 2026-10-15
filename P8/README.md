@@ -14,11 +14,8 @@ dan **Lembar Jawaban berformat PDF**.
 
 Catatan pengerjaan, tenggat waktu, rincian soal, dan jawaban **tidak
 dicantumkan di repositori ini**. Repositori ini bersifat publik, sehingga
-seluruh materi tersebut disimpan di folder dokumen lokal di luar repositori:
-
-```
-~/Dokumen/Semester 2A/SIA01 - Pemrograman Berbasis Perangkat Bergerak/P8/
-```
+seluruh materi tersebut disimpan pada folder dokumen lokal di luar
+repositori.
 
 ## Materi yang Sudah Dipelajari
 
