@@ -7,16 +7,16 @@ Pemrograman Berbasis Perangkat Bergerak: Android Studio, VS Code & Flutter
 | Pertemuan | Materi | Status |
 |---|---|---|
 | [Pertemuan 1](P1) | Pengenalan Flutter & Android, Hello World | ✅ dibuat & **terbukti jalan** di emulator |
-| Pertemuan 2 | Membuat Hello World pada Flutter | ⬜ materi ada di Dokumen, belum di-repo |
-| Pertemuan 3 | Membuat project & menjalankan di emulator | ⬜ materi ada di Dokumen, belum di-repo |
+| [Pertemuan 2](P2) | Membuat Hello World pada Flutter | ✅ didokumentasikan |
+| [Pertemuan 3](P3) | Membuat project & menjalankan di emulator | ✅ didokumentasikan |
 | Pertemuan 4 | — | ⬜ folder materi **kosong** |
 | Pertemuan 5 | — | ⬜ materi belum tersedia |
 | Pertemuan 6 | — | ⬜ materi belum tersedia |
 | Pertemuan 7 | — | ⬜ materi belum tersedia |
 | [Pertemuan 8](P8) | Ujian Akhir Semester | ✅ dikerjakan, materi ujian disimpan di luar repo |
 
-Hanya P1 dan P8 yang memiliki folder di repositori ini. Pertemuan lain
-masih berupa materi di folder Dokumen, atau belum tersedia dari dosen.
+Hanya P1, P2, P3, dan P8 yang memiliki folder di repositori ini. Pertemuan
+lain masih berupa materi di folder Dokumen, atau belum tersedia dari dosen.
 
 ## Lingkungan Pengembangan
 
